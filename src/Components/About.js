@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import cv from "../Assets/CV-MatiasAquino.pdf";
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic = "images/" + "profilepic.png";
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -21,37 +22,40 @@ class About extends Component {
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
+              <div style={{width: "200px", height: "150px", borderRadius: "50%", overflow: "hidden"}}>
+                <img
+                  className="profile-pic"
+                  src={profilepic}
+                  alt="Nordic Giant Profile Pic"
+                  style={{width: "100%", height: "100%", objectFit: "center" }}
+                />
+              </div>
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>Sobre mi</h2>
 
-              <p>{bio}</p>
+              <p>
+                Soy Frontend Developer con 1 año de experiencia y me gusta desarrollar sitios o aplicaciones web dando especial importancia al usuario final, y con el objetivo de que cada interfaz sea atractiva y funcional, cumpliendo con los requerimientos solicitados. Para eso me mantengo actualizado y en constante capacitación.
+              </p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>{name}</span>
+                    <span>Matias L. Aquino</span>
                     <br />
                     <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
+                      Buenos Aires, Argentina
                     </span>
                     <br />
-                    <span>{phone}</span>
+                    <span>+5491133236103</span>
                     <br />
-                    <span>{email}</span>
+                    <span>m4tias.a@gmail.com</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                    <a href={cv} className="button" download>
+                      <i className="fa fa-download"></i>Descargar CV
                     </a>
                   </p>
                 </div>
