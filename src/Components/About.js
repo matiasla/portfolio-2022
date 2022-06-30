@@ -35,7 +35,7 @@ class About extends Component {
               <h2>Sobre mi</h2>
 
               <p>
-                Soy Frontend Developer con 1 año de experiencia y me gusta desarrollar sitios o aplicaciones web dando especial importancia al usuario final, y con el objetivo de que cada interfaz sea atractiva y funcional, cumpliendo con los requerimientos solicitados. Para eso me mantengo actualizado y en constante capacitación.
+              Soy Fullstack Developer con 1 año de experiencia. Me gusta desarrollar sitios y aplicaciones web, para eso me mantengo actualizado y en constante capacitación. Disfruto mucho de trabajar en equipo, y creo que siempre está primero el compañerismo y la buena onda.
               </p>
               <div className="row">
                 <div className="columns contact-details">

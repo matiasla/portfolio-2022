@@ -57,7 +57,7 @@ class Header extends Component {
             </Fade>
             <Fade bottom duration={1200}>
               <h3>
-                Actualmente me dedico al Desarrollo Frontend, utilizando tecnologías como: HTML, CSS, JavaScript, React.js, Material-UI, SASS, RESTful API, Git
+                Actualmente me dedico al Desarrollo Fullstack, utilizando tecnologías como: HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, RESTful API, Git
               </h3>
             </Fade>
             <hr />
