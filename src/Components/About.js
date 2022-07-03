@@ -22,12 +22,12 @@ class About extends Component {
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
-              <div style={{width: "200px", height: "150px", borderRadius: "50%", overflow: "hidden"}}>
+              <div style={{ width: "200px", height: "150px", borderRadius: "50%", overflow: "hidden" }}>
                 <img
                   className="profile-pic"
                   src={profilepic}
                   alt="Nordic Giant Profile Pic"
-                  style={{width: "100%", height: "100%", objectFit: "center" }}
+                  style={{ width: "100%", height: "100%", objectFit: "center" }}
                 />
               </div>
             </div>
@@ -35,7 +35,7 @@ class About extends Component {
               <h2>Sobre mi</h2>
 
               <p>
-              Soy Fullstack Developer con 1 año de experiencia. Me gusta desarrollar sitios y aplicaciones web, para eso me mantengo actualizado y en constante capacitación. Disfruto mucho de trabajar en equipo, y creo que siempre está primero el compañerismo y la buena onda.
+                Soy Fullstack Developer con 1 año de experiencia y me gusta desarrollar sitios/aplicaciones web. Para eso me mantengo constantemente aprendiendo cosas nuevas. Disfruto mucho de codear y trabajar en equipo.
               </p>
               <div className="row">
                 <div className="columns contact-details">
